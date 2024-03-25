@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: monospace;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,8 +15,12 @@ body {
 
 h1 {
     text-transform: uppercase;
-    color: #000000;
+    color: #F5500F;
     margin-top: 3em;
+}
+
+h3 {
+    color: #F5500F;
 }
 
 nav {
@@ -36,7 +40,7 @@ nav a {
     font-size: 2em;
     font-weight: bold;
     color: black;
-    margin-right: 1em;
+    margin: 0 1em;
 }
 
 .tokenomics {
